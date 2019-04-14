@@ -69,9 +69,9 @@
 \newcommand{\BibTeX}{{\sc Bib}\TeX}%BibTeX logo
 \hypersetup{   % Nastavení polí PDF dokumentu 
 pdftitle={Evaluation of Container-based Virtualization for standard company environment},%   
-pdfauthor={Pavel Cizinsky},%  
+pdfauthor={Jan Cach},%  
 pdfsubject={},%   
-pdfkeywords={Docker, Kubernetes, Kotejner, Virtualizace}%                             
+pdfkeywords={Cloud computing, Cloud native, Multi cloud, Kubernetes}%                             
 }
 \usepackage{multicol}
 
@@ -212,7 +212,7 @@ pdfkeywords={Docker, Kubernetes, Kotejner, Virtualizace}%
 \vspace{15mm}
 
 
-\textsf{\LARGE Diplomova prace}{\LARGE \par}
+\textsf{\LARGE Diplomová práce}{\LARGE \par}
 
 \vspace{10mm}
 
@@ -245,7 +245,7 @@ pdfkeywords={Docker, Kubernetes, Kotejner, Virtualizace}%
 \noindent {\small Prohlašuji, že jsem bakalářskou práci vypracoval samostatně a uvedl jsem všechny použité prameny a literaturu.}{\small \par}
 
 {\small \bigskip{}
-}\noindent {\small{} V Horním Jelení dne \today\hspace{\fill}Jan Cach}\\
+}\noindent {\small{} V Hradci Králové dne \today\hspace{\fill}Jan Cach}\\
 {\small{} % doplňte patřičné datum, jméno a příjmení
 }{\small \par}
 
@@ -267,7 +267,7 @@ pdfkeywords={Docker, Kubernetes, Kotejner, Virtualizace}%
 \section*{Anotace}
 Tato bakalářská práce pojednává o kontejnerové virtualizaci, zabývá se problematikou nasazení kontejnerů do standardního firemního prostředí. První část je věnována představení virtualizace obecně a její porovnání s kontejnerovou virtualizací. Následně je řešena problematika orchestrace a ovládání kontejnerového prostředí. Čtvrtá a pátá kapitola je věnována analýze a převodu aplikace do kontejnerů, součástí  kapitoly pět je praktická ukázka funkčnosti orchestrátoru. Cílem této práce je seznámení čtenáře s konceptem kontejnerů a zjistit jejich využitelnost v produkčním prostředí a možnost převodu klasické aplikace do kontejnerů.
 \subsubsection*{Klíčová slova}
-Docker, Kubernetes, Cluster, Kontejnery, Virtualizace
+Cloud computing, Cloud native, Multi cloud, Kubernetes
 
 \section*{Annotation}
 Title: Evaluation of Container-based Virtualization for standard company environment
@@ -277,7 +277,7 @@ The fourth and fifth chapters are devoted to the analysis and conversion of appl
 The aim of this work is to familiarize the reader with the concept of containers and to find out their applicability in the production environment as well as the ability to convert a classic application into containers.
 
 \subsubsection*{Key words}
-Docker, Kubernetes, Cluster, Containers, Virtualization
+Cloud computing, Cloud native, Multi cloud, Kubernetes
 
 \noindent {\small ~\vfill{}
 }{\small \par}
@@ -286,14 +286,17 @@ Docker, Kubernetes, Cluster, Containers, Virtualization
 \cleardoublepage{}}{\small \par}
 
 \include{tex/chapter01}
+\include{tex/chapter02}
+\include{tex/chapter04}
+\include{tex/chapter05}
+\include{tex/chapter06}
 
 \addcontentsline{toc}{chapter}{Literatura} 
 
-\bibliography{tex/karel}{}
-\bibliographystyle{plain}
 \cleardoublepage{}
 
-%\include{tex/prilohy}
+\include{tex/_bib}
+\nocite{*}
 \include{tex/_exp}
 \listoffigures
 \listoftables
