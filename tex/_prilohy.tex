@@ -135,31 +135,37 @@ spec:
 
 \clearpage
 \section*{D. Struktura aplikace\label{app:struktura}}
-\begin{verbatim}
-/vk8s-master
-├── main.go
-├── pkg
-│   ├── cluster
-│   │   └── cluster.go
-│   ├── informer
-│   │   └── interfaces.go
-│   ├── manager
-│   │   ├── interface.go
-│   │   └── manager.go
-│   ├── vk8s
-│   │   ├── customer.go
-│   │   ├── vk8s.go
-│   │   └── minikube.go
-│   └── worker
-│       ├── configmap.go
-│       ├── deployment.go
-│       ├── interface.go
-│       ├── node.go
-│       ├── pod.go
-│       ├── pvc.go
-│       ├── service.go
-│       ├── statefulset.go
-│       └── worker.go
-├── README.md
-
-\end{verbatim}
+\begin{figure}[H]
+  %\begin{centering}
+    
+	  \includegraphics[width=0.5\textwidth]{images/vk8s-master.png}
+   %\end{centering}
+\end{figure}
+%\begin{lstlistin}
+%/vk8s-master\newline
+%|---main.go\newline
+%|---pkg\newline
+%|   |---cluster\newline
+%|   |   '---cluster.go\newline
+%|   |---informer\newline
+%|   |   '---interfaces.go\newline
+%|   |---manager\newline
+%|   |   |---interface.go\newline
+%|   |   '---manager.go\newline
+%|   |---vk8s\newline
+%|   |   |---customer.go\newline
+%|   |   |---vk8s.go\newline
+%|   |   '---minikube.go\newline
+%|   '---worker\newline
+%|       |---configmap.go\newline
+%|       |---deployment.go\newline
+%|       |---interface.go\newline
+%|       |---node.go\newline
+%|       |---pod.go\newline
+%|       |---pvc.go\newline
+%|       |---service.go\newline
+%|       |---statefulset.go\newline
+%|       '---worker.go\newline
+%|---README.md
+%
+%\end{lstlisting}

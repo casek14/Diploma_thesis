@@ -194,6 +194,7 @@ pdfkeywords={Cloud computing, Cloud native, Multi cloud, Kubernetes}%
 \renewcommand*{\bibname}{Literatura} %prejmenovani figure
 \renewcommand{\tablename}{Tabulka}
 \renewcommand{\listtablename}{Seznam tabulek}
+\renewcommand{\contentsname}{Obsah}
 % vlastni styly tabulek
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \begin{document}
@@ -262,7 +263,7 @@ pdfkeywords={Cloud computing, Cloud native, Multi cloud, Kubernetes}%
 ~\thispagestyle{empty}{\small ~\vfill{}
 }{\small \par}
 
-\noindent {\small Rád bych poděkoval Ing. Jakubu Pavlíkovi, MSc. za odborné vedení práce, podnětné rady a čas, který mi věnoval. \newpage{}}{\small \par}
+\noindent {\small Rád bych poděkoval Ing. Jakubu Pavlíkovi, MSc. za odborné vedení práce, podnětné rady a čas, který mi věnoval. Dále bych chtěl poděkovat své rodině za podporu při tvorbě této práce. \newpage{}}{\small \par}
 \clearpage{}
 ~\thispagestyle{empty}{\small ~\vfill{}
 }{\small \par}
@@ -270,17 +271,14 @@ pdfkeywords={Cloud computing, Cloud native, Multi cloud, Kubernetes}%
  % nastavuje dynamické umístění následujícího textu do spodní části stránky
 ~}{\small \par}
 \section*{Anotace}
-Tato bakalářská práce pojednává o kontejnerové virtualizaci, zabývá se problematikou nasazení kontejnerů do standardního firemního prostředí. První část je věnována představení virtualizace obecně a její porovnání s kontejnerovou virtualizací. Následně je řešena problematika orchestrace a ovládání kontejnerového prostředí. Čtvrtá a pátá kapitola je věnována analýze a převodu aplikace do kontejnerů, součástí  kapitoly pět je praktická ukázka funkčnosti orchestrátoru. Cílem této práce je seznámení čtenáře s konceptem kontejnerů a zjistit jejich využitelnost v produkčním prostředí a možnost převodu klasické aplikace do kontejnerů.
+Tato diplomová práce se zaměřuje na problematiku Cloud-Native aplikací a infrastruktury společně s jejím využitím v hybridním multi-cloud prostředí. Cloud-Native je stále se rozvíjející oblast, jejíž snahou je vytváření a správa aplikací, které naplno využívají potenciálu cloudových platforem. Tento přístup pokrývá celý životní cyklus aplikace, který zahrnuje architekturu aplikace, její nasazení, správu a monitoring. Cílem této práce je analyzovat a navrhnout platformu, která bude umožňovat běh distribuovaných aplikací v prostředí multi-cloudu. V praktické části je tato navržená platforma \linebreak implementována a otestována na vybraných scénářích.
 \subsubsection*{Klíčová slova}
 Cloud computing, Cloud native, Multi cloud, Kubernetes
 
 \section*{Annotation}
-Title: Evaluation of Container-based Virtualization for standard company environment
+Title: Implementation of hybrid multi-cloud concept for distributed aplications accros containers and VMs into enterprise environment
 \vspace{0.5cm}\FloatBarrier
-This Bachelor’s thesis describes container-based virtualization especially the issues in its use in standard company environment. The first part is dedicated to intruducing general virtualization and its comparison to container-based virtualization. Afterward is tackled the troubleshooting of orchestration and control of the container-based environment.
-The fourth and fifth chapters are devoted to the analysis and conversion of application into containers. Practical example of the orchestration's functionality is included in chapter five.
-The aim of this work is to familiarize the reader with the concept of containers and to find out their applicability in the production environment as well as the ability to convert a classic application into containers.
-
+This master thesis focuses on Cloud-Native applications and infrastructure \linebreak problematics together with its utilization in hybrid multi-cloud environment. Cloud-Native is dynamic domain. Its goal is the creation and management of applications, which utilize all benefits of cloud platforms. This approach covers whole application life cycle, which includes application architecture, deployment, management and \linebreak monitoring. The main goal of this thesis is to analyze and design platform, which will \linebreak allow distributed applications to be run in the hybrid multi-cloud environment. This platform is implemented and tested with selected scenarios in the hands-on part.
 \subsubsection*{Key words}
 Cloud computing, Cloud native, Multi cloud, Kubernetes
 
@@ -315,7 +313,7 @@ Cloud computing, Cloud native, Multi cloud, Kubernetes
 
 %zadani
 %\includepdf[pages={1},scale=0.8]{zadani2}
-\includepdf[pages={1}]{zadani.pdf}
+\includepdf[pages={1},scale=0.9]{images/zadani.pdf}
 
 \clearpage{}
 \end{document}
